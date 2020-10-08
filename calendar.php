@@ -11,6 +11,8 @@
 				$Primer = 3;
 				$dia = 0;
 				$Max = 30;
+				$Month = Octubre;
+				echo "<tr>$Month</tr>";
 				echo "<tr>";
 				foreach( $days as $day) {
 					echo "<th>$day</th>";
@@ -37,6 +39,9 @@
 						echo"<td>‎ </td>";
 					} 
 					echo "</tr>";
+					if ($week == 4 and $dia < $Max) {
+						$week -= 1;
+					}
 				}
 			?>
 		</table>
