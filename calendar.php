@@ -10,7 +10,7 @@
 				$MonthDays = 30;
 				$Primer = 3;
 				$dia = 0;
-				$Max = 30;
+				$Max = 31;
 				$Month = Octubre;
 				echo "<tr>$Month</tr>";
 				echo "<tr>";
@@ -41,6 +41,9 @@
 					echo "</tr>";
 					if ($week == 4 and $dia < $Max) {
 						$week -= 1;
+					}
+					if ($week == 3 and $dia == $Max) {
+						$week++;
 					}
 				}
 			?>
