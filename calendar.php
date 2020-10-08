@@ -8,7 +8,7 @@
 			<?php
 				$days = array("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo");
 				$MonthDays = 30;
-				$Primer = 3
+				$Primer = 3;
 				$dia = 0;
 				$Max = 30;
 				echo "<tr>";
@@ -16,18 +16,18 @@
 					echo "<th>$day</th>";
 				}
 				echo "</tr>";
-				for( $week = 0; $week < 6; $week++) {
+				for( $week = 0; $week < 5; $week++) {
 					echo "<tr>";
-					for( $d = 0; $d < 7; $d++ ) {
+					for( $d = 0; $d < 7; $d+=1 ) {
 						if ($Primer != 0){
-							echo "<td> <td>";
+							echo "<td></td>";
 							$Primer -= 1;
 						}else {
 							$dia++;
 							if ($dia <= $Max) {
 								echo "<td>$dia</td>";
 							}else {
-								echo "<td></td>";
+								echo "<td> </td>";
 							}
 						}
 					}
