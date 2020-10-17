@@ -1,4 +1,6 @@
-Patates, Patates recollides a l'hort del veí, 3.5€
-Peres, Peres collides l'any passat i en conserva, 2€
-Pomes, Pomes collides el mateix dia, 4.99€
-Cireres, Cireres recollides aquest matí, 10€
+Patates, Patates recollides a l'hort del veí, 3
+Peres, Peres collides l'any passat i en conserva, 2
+Pomes, Pomes collides el mateix dia, 4
+Cireres, Cireres recollides aquest matí, 10
+Xirimoies, Les pitjors, 6
+Pastanagues, Les hem trobades a la brossa, 5
