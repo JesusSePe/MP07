@@ -29,16 +29,17 @@
                     
                     echo "<table><thead><td colspan='4' align='center' bgcolor='cyan'>Llistat de ciutats</td></thead>";
                     while( $registreCiutats = mysqli_fetch_assoc($queryCiutats) ){
+                        $pais = $registreCiutats["Pais"];
                         echo "\t<tr>\n";
                         echo "\t\t<td>".$registreCiutats["Pais"]."</td>\n";
                         echo "\t\t<td>".$registreCiutats["Ciutat"]."</td>\n";
+                        echo "<td><img src='./svg/$pais.svg' width='20' height='20'></td>";
                         echo "\t</tr>\n";
                     }
                     
 				} else {
                     echo "<p>No s'han adjuntat dades</p>\n";
 				} 
-            } else {
             }
             ?>
 	</body>
