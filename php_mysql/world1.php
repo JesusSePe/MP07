@@ -22,12 +22,15 @@
      			$message .= 'Consulta realitzada: ' . $consulta;
                  die($message);
             } else {
-                echo "<form method='POST' action='world2.php'><select name='Country'>";
+                echo "<form method='POST' action='world2.php'>Pais: <select name='Country'>";
                 while( $registre = mysqli_fetch_assoc($resultat) ) {
                     $nom = $registre["Name"];
                     echo "<option value='$nom'>".$nom."</option>\n";
-                }
-                echo "</select><input type='submit' name='Send' value='Send'>";
+				}
+				echo "</select><br>Nova ciutat (opcional):<input type='text' name='NewCity'></input><br>";
+				echo "Districte (opcional):<input type='text' name='Dis'></input><br>";
+				echo "Població (opcional):<input type='number' name='Popul'></input><br>";
+                echo "<input type='submit' name='Send' value='Send'>";
             }
 		?>
 	</body>

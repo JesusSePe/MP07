@@ -36,10 +36,16 @@
                         echo "<td><img src='./svg/$pais.svg' width='20' height='20'></td>";
                         echo "\t</tr>\n";
                     }
-                    
+                    if (isset($_POST["NewCity"], $_POST["Dis"], $_POST["Popul"])){
+                        $Name = $_POST["NewCity"];
+                        $District = $_POST["Dis"];
+                        $Population = $_POST["Popul"];
+                        $addQuery = "INSERT INTO `city` (`Name`, `CountryCode`, `District`, `Population`) VALUES ('$Name', '$Codi' ,'$District', $Population);";
+                        $addCity = mysqli_query($conn, $addQuery);
+                    }
 				} else {
                     echo "<p>No s'han adjuntat dades</p>\n";
-				} 
+                }
             }
             ?>
 	</body>
