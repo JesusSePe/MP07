@@ -1,0 +1,4 @@
+nom1,cognom11,cognom12,111111111
+nom2,cognom21,cognom22,222222222
+nom3,cognom31,cognom32,333333333
+nom4,cognom41,cognom42,444444444
