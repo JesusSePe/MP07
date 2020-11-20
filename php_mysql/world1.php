@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<?php
-            $conn = mysqli_connect('localhost','telek','Tlk_1234');
+            $conn = mysqli_connect('localhost','php','Php_1c4J8');
             mysqli_select_db($conn, 'world');
             $consulta = "SELECT Name FROM country ORDER BY Name;";
             $resultat = mysqli_query($conn, $consulta);

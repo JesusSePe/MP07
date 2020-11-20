@@ -16,7 +16,7 @@
             if( $_SERVER["REQUEST_METHOD"] == "POST") {
                 if (isset($_POST["Country"])) {
                     $NomPais = $_POST["Country"];
-                    $conn = mysqli_connect('localhost','telek','Tlk_1234');
+                    $conn = mysqli_connect('localhost','php','Php_1c4J8');
                     mysqli_select_db($conn, 'world');
                     $consultaCodi = "SELECT Code FROM country WHERE Name = '$NomPais';";
                     $QuerycodiPais = mysqli_query($conn, $consultaCodi);
