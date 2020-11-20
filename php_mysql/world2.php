@@ -47,6 +47,7 @@
                     echo "<p>No s'han adjuntat dades</p>\n";
                 }
             }
-            ?>
+        ?>
+        <a href='https://www.flaticon.com/authors/freepik'>Flags designed by Freepic</a> and <a href='https://commons.wikimedia.org'>Wikimedia Commons</a>
 	</body>
 </html>
