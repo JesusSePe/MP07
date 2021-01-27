@@ -16,7 +16,7 @@
 					echo "</td></tr><tr><td>Preu: ";
 					echo $_POST["price"];
 					echo "€</td></tr>";
-					$txt = $_POST["name"] . ", " . $_POST["desc"] . ", " . $_POST["price"] . ;
+					$txt = $_POST["name"] . ", " . $_POST["desc"] . ", " . $_POST["price"];
 					$file = fopen("Cataleg.txt", "a");
 					fwrite($file, $txt);
 					fclose($file);
