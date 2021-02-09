@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>PG1</title>
- 	</style>
 	</head>
 	<body>
          <form method="POST" action="fita2pagina2.php">
