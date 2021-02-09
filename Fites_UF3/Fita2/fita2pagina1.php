@@ -9,7 +9,7 @@
             <p>email:</p> <input type='mail' name='mail'></input><br>
             <p>Contrasenya:</p> <input type='password' name='pass'></input><br>
             <p>Comprovació contrasenya:</p> <input type='password' name='pass2'></input><br>
-            <input type='submit' name='Send' value='Send'>
+            <input type='submit' name='Send' value='Send'></input>
          </form>
 	</body>
 </html>
